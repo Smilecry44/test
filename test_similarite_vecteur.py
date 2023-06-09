@@ -3,7 +3,7 @@ import spacy
 from sklearn.metrics.pairwise import cosine_similarity
 import csv
 
-nlp = spacy.load("fr_core_news_md")
+nlp = spacy.load("fr_dep_news_trf")
 
 # Fonction pour effectuer l'analyse de comparaison de similarité
 def compare_similarity(terms):
